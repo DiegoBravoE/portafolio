@@ -286,9 +286,9 @@ footer{
 }
 
 
-     footer img{
-        
-          width: 1rem;
+    footer > strong{
+        color:black;
+          
      }
 
     
