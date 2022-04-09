@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+   
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background:#161617;
+}
+.header{
+    margin-left: 95%;
+    
+}
+
+li{
+    background-color: #242635;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 1.5rem;
+    list-style: none;
+
+}
+
+  a{
+    text-decoration: none;
+    color:#D1CECA;   
+    
+}
+a:hover{
+    color:#34B0BE;
+}
+ 
+  label{
+    color: rgb(73, 72, 72)
+}
+  input#menu-hamburguesa{
+     visibility: hidden;
+
+}
+  input#menu-hamburguesa ~ ul{
+  
+    position:absolute;
+    width: 35%;
+   height: 100vh;
+    top:40px;
+    right:100%;   
+    transition: all 300ms linear;
+}
+   
+  input#menu-hamburguesa:checked ~ ul{
+    right: 0;   
+}
+ 
+.presentacion{
+    
+        width: max-content;
+        margin-top: 3rem;
+        display: flex;
+}
+
+.datos {
+    margin:2rem;
+    color: #d1ceca;
+    font-size:1.3rem;
+}
+.nombre{
+    position: relative;
+    color: #34B0BE;
+    font-size:4rem;
+}
+.marketing{
+    position:relative;
+    border-top: solid 2px;
+    font-size:25px;
+    color:#d1ceca;
+    margin-left: -1.5rem;
+}
+.foto{
+   
+    margin: 1rem -6rem;
+    background: rgb(73, 72, 72);
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+.foto img{
+   margin-left: 2rem;
+ margin-top: -7rem;
+    width:15rem;
+    height:25rem;
+}
+
+.redes{
+   
+   margin-left: 2rem;
+   margin-top: 4rem;
+    width: 13rem;
+}
+.redes strong{
+    color: #34B0BE;
+    font-size:30px;
+    padding:0 1rem;
+}
+.redes p{
+    color: #d1ceca;
+    font-size:30px;
+    padding:0 1rem;  
+}
+.contenedor-iconos{
+    display: flex;
+    justify-content:center;
+    margin-top:-2rem;
+}
+.iconos-redes img{
+    background-color: #d1ceca;
+    margin:2px;
+    padding:1rem 1rem;
+
+   border-radius: 50px;
+   
+  
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80%;
+    margin: -1rem ;
+    margin-left: 10%;
+    background:rgb(73, 72, 72);;
+    height: 6rem;
+    border-radius: 15px;
+}
+
+.iconos a{
+    text-decoration: none;
+    background: #d1ceca;
+    color:#34B0BE;
+    padding-inline: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.iconos img{
+   padding: 5px;
+   width: 3rem;
+}
+.acerca-de-mi h1{
+    color: #34B0BE;
+    font-size:3rem;
+    padding-bottom: 2rem;
+}
+.acerca-de-mi{
+    color:#d1ceca;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+.servicios{
+    
+    overflow: scroll;
+    display:flex;
+    scrollbar-width: none;
+}
+h2{
+    text-align: center;
+     margin: 1rem;
+     color: #34B0BE;
+}
+
+.servicios div{
+    background:rgb(255, 253, 253);
+    
+    
+}
+.elipse{
+    
+    margin-bottom: rem;
+}
+.servicios svg{
+    
+    margin: 4.5rem;
+    margin-top: -10rem;
+    font-size:25px;
+    width: 10rem;
+    margin-inline: 3rem;
+}
+.pencil, .speaker, .lupa{  
+  background-color:rgb(245, 242, 247);
+  border-radius: 10px;
+    width: auto;
+    margin: 0.5rem;
+   text-align: center;
+}
+ .pencil h3, .speaker h3, .lupa h3{
+       
+        margin-top: 4rem;
+        font-size:25px;
+        width: 15rem;
+        margin-inline: 3rem;    
+}
+.texto {
+    color: rgba(0, 0, 0, 0.322);
+    margin-top: 1rem;
+   font-size:20px;
+   padding:2rem;
+   text-align: center;
+}
+.progreso{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.progreso progress{
+    width: 100%;
+    padding: 1rem;
+}
+.text-progreso{
+    color: #d1ceca;
+  display: flex;  
+  justify-content: space-between;
+}
+.portafolio{
+    display: flex;  
+    overflow: scroll;
+}
+.telefono{
+    background: #dad8d8;
+    width: 250px;
+    height:250px;
+    margin:2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.telefono img{
+    position: relative;
+    width:190px;
+    height:110px;
+}
+    .telefono h4 {
+        font-size:1rem;
+}
+.telefono p {
+        color:#3d3d3d7c;
+        font-size:1.5rem;
+}
+.elipse2{
+        
+       margin-bottom: -4rem ;
+}
+.email{
+        margin-left: 20rem;
+        background: #dad8d8;
+        width: 250px;
+        height:250px; 
+        border-radius: 5px;
+        text-align: center;  
+}
+.email img{
+        position: relative;
+        width:190px;
+        height:110px; 
+}
+.email h4 {
+        font-size:1rem;
+}
+.email p {
+        color:#3d3d3d7a;
+        font-size:1rem;
+}
+.elipse2{
+        
+        margin-bottom: -4rem ;
+     }
+footer{
+    color:#34B0BE;
+    background:rgb(73, 72, 72);
+    text-align: center;
+    height:4rem;
+     width: 100%;
+     margin-top:  2rem;  
+     padding:1rem ;
+}
+
+
+     footer img{
+        
+          width: 1rem;
+     }
+
+    
+        
+
+      @media screen and (min-width: 600px){
+                           
+label{
+   display:none;
+}
+
+input#menu-hamburguesa ~ ul {
+   
+   position:static;
+    display: flex;
+    justify-content: end;
+    height: auto;
+  
+}
+
+li{
+    background-color: transparent;
+    padding:1rem
+}
+.header a{
+    width: max-content;
+    margin-top:0;
+   color:#D1CECA;
+}
+
+a:hover{
+    color:#34B0BE;
+}
+
+h2{
+    margin: 5rem 1rem;
+}
+.presentacion{
+    margin-top: 1rem;
+}
+.datos{
+    margin:4rem;
+    
+}
+.parrafo{
+    margin-left:4rem;
+    font-size:4rem;
+}
+.nombre{
+    margin-left: 9rem;
+    font-size:4rem;
+}
+
+
+.marketing{
+    border-top: solid 2px;
+    font-size:3rem;
+    margin-left: 4rem;
+    width: max-content;
+}
+
+.foto{
+    margin: 1rem ;
+    margin-left: -13rem;
+   
+    width: 600px;
+    height: 600px;
+    border-radius: 400px;
+}
+.foto img{
+    margin-left:6rem ;
+ margin-top: -3rem;
+    width:auto;
+    height:auto;
+}
+
+.redes{
+    width: max-content;
+    margin: 3rem;
+    margin-right: 5rem;
+    margin-left: 0rem;
+    
+}
+ .redes strong{
+     
+     color: #34B0BE;
+     font-size:4rem;
+     margin: -9rem;
+ }
+ .redes p{
+     color: #d1ceca;
+     font-size:3rem;
+     margin-left: -9rem;
+ }
+
+.iconos{
+   
+    
+    margin: -1rem ;
+    height: 20%;
+    
+    }
+
+ .iconos a{
+     width: 15%;
+    height: 77%;
+     margin-inline: auto;
+    
+ }
+ .iconos img{
+   margin:1rem;
+    width: 70%;  
+ }
+ .iconos-redes{
+     margin-top: 2rem;
+     margin-left: -5rem;
+     
+ }
+ .iconos-redes img{
+    width: 5rem;
+    
+ }
+.servicios{
+    
+    overflow: hidden;
+    display:flex;
+    
+}
+
+.portafolio{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+  overflow: hidden;
+    
+    
+}
+.portafolio img{
+    padding-inline: 1rem;
+width: 100%;
+height:auto;
+
+}
+.email{
+    margin-left: 70%;
+    
+    
+     
+}
+.telefono{
+    margin-left: 15rem;
+}
+.email{
+    margin-left: 45rem;
+    
+}
+.email p{
+    font-size:17px;
+}
+
+     }
+
+    
