@@ -16,10 +16,10 @@ body{
 }
 
 li{
+    
     background-color: #242635;
     display: flex;
     justify-content:center;
-    margin: 0;
     padding: 1.5rem;
     list-style: none;
 
