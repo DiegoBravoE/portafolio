@@ -64,19 +64,19 @@ a:hover{
 }
 
 .datos {
-    margin:1.5rem;
+    margin:.5rem;
     color: #d1ceca;
-    font-size:1rem;
+    font-size:0.5rem;
 }
 .nombre{
     position: relative;
     color: #34B0BE;
-    font-size:3rem;
+    font-size:2rem;
 }
 .marketing{
     position:relative;
     border-top: solid 2px;
-    font-size:25px;
+    font-size:15px;
     color:#d1ceca;
     margin-left: -1.5rem;
 }
@@ -90,36 +90,36 @@ a:hover{
 }
 .foto img{
    margin-left: 2rem;
- margin-top: -7rem;
+ margin-top: -5rem;
     width:13rem;
     height:25rem;
 }
 
 .redes{
    
-   margin-left: rem;
-   margin-top: 4rem;
+
+   margin-top: 5rem;
     width: 10rem;
 }
 .redes strong{
     color: #34B0BE;
-    font-size:30px;
+    font-size:20px;
     
 }
 .redes p{
     color: #d1ceca;
-    font-size:25px;
+    font-size:20px;
    
 }
 .contenedor-iconos{
     display: flex;
     justify-content:center;
-    margin-top:-2rem;
+   
 }
 .iconos-redes img{
     background-color: #d1ceca;
     margin:2px;
-    padding:0.5rem 0.5rem;
+    padding:5px 5px;
 
    border-radius: 50px;
    
@@ -127,9 +127,9 @@ a:hover{
 }
 .iconos{
     display: flex;
-    
-    margin: -1rem ;
-    margin-left:1rem;
+    align-items: center;
+    margin: 0;
+  
     background:rgb(73, 72, 72);;
     height: 6rem;
     border-radius: 15px;
@@ -139,7 +139,7 @@ a:hover{
     text-decoration: none;
     background: #d1ceca;
     color:#34B0BE;
-    padding-inline: 1rem;
+   
     margin: 1rem;
     border-radius: 10px;
 }
