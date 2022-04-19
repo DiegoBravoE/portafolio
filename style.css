@@ -35,7 +35,8 @@ a:hover{
 }
  
   label{
-    color: rgb(73, 72, 72)
+    color: rgb(73, 72, 72);
+    margin-left:-100px;
 }
   input#menu-hamburguesa{
      visibility: hidden;
@@ -44,7 +45,7 @@ a:hover{
   input#menu-hamburguesa ~ ul{
   
     position:absolute;
-    width: 35%;
+   
    height: 100vh;
     top:40px;
     right:100%;   
@@ -65,12 +66,12 @@ a:hover{
 .datos {
     margin:1.5rem;
     color: #d1ceca;
-    font-size:1.3rem;
+    font-size:1rem;
 }
 .nombre{
     position: relative;
     color: #34B0BE;
-    font-size:4rem;
+    font-size:3rem;
 }
 .marketing{
     position:relative;
@@ -81,7 +82,7 @@ a:hover{
 }
 .foto{
    
-    margin: 1rem -6rem;
+    margin: 1rem -8rem;
     background: rgb(73, 72, 72);
     width: 300px;
     height: 300px;
@@ -98,17 +99,17 @@ a:hover{
    
    margin-left: rem;
    margin-top: 4rem;
-    width: 13rem;
+    width: 10rem;
 }
 .redes strong{
     color: #34B0BE;
     font-size:30px;
-    padding:0 1rem;
+    
 }
 .redes p{
     color: #d1ceca;
-    font-size:30px;
-    padding:0 1rem;  
+    font-size:25px;
+   
 }
 .contenedor-iconos{
     display: flex;
@@ -118,7 +119,7 @@ a:hover{
 .iconos-redes img{
     background-color: #d1ceca;
     margin:2px;
-    padding:1rem 1rem;
+    padding:0.5rem 0.5rem;
 
    border-radius: 50px;
    
@@ -126,11 +127,9 @@ a:hover{
 }
 .iconos{
     display: flex;
-    justify-content: center;
-    margin-inline: auto;
-    width: 80%;
+    
     margin: -1rem ;
-    margin-left: 10%;
+    margin-left:1rem;
     background:rgb(73, 72, 72);;
     height: 6rem;
     border-radius: 15px;
@@ -149,6 +148,7 @@ a:hover{
    width: 3rem;
 }
 .acerca-de-mi h1{
+    width: max-content;
     color: #34B0BE;
     font-size:3rem;
     padding-bottom: 2rem;
@@ -199,17 +199,18 @@ h2{
        
         margin-top: 4rem;
         font-size:25px;
-        width: 15rem;
+        width: 10rem;
         margin-inline: 3rem;    
 }
 .texto {
     color: rgba(0, 0, 0, 0.322);
     margin-top: 1rem;
    font-size:20px;
-   padding:2rem;
+   padding:1rem;
    text-align: center;
 }
 .progreso{
+    
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -224,20 +225,24 @@ h2{
   justify-content: space-between;
 }
 .portafolio{
+   
     display: flex;  
     overflow: scroll;
 }
 .telefono{
+    
     background: #dad8d8;
     width: 250px;
     height:250px;
-    margin:2rem;
+    margin:auto;
+    margin-bottom: 2rem;
     border-radius: 5px;
     text-align: center;
 }
 .telefono img{
+    
     position: relative;
-    width:190px;
+    width:100px;
     height:110px;
 }
     .telefono h4 {
@@ -247,12 +252,9 @@ h2{
         color:#3d3d3d7c;
         font-size:1.5rem;
 }
-.elipse2{
-        
-       margin-bottom: -4rem ;
-}
+
 .email{
-        margin-left: 20rem;
+        margin: auto;
         background: #dad8d8;
         width: 250px;
         height:250px; 
@@ -261,7 +263,7 @@ h2{
 }
 .email img{
         position: relative;
-        width:190px;
+        width:100px;
         height:110px; 
 }
 .email h4 {
