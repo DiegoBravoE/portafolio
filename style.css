@@ -63,7 +63,7 @@ a:hover{
 }
 
 .datos {
-    margin:2rem;
+    margin:1.5rem;
     color: #d1ceca;
     font-size:1.3rem;
 }
@@ -90,13 +90,13 @@ a:hover{
 .foto img{
    margin-left: 2rem;
  margin-top: -7rem;
-    width:15rem;
+    width:13rem;
     height:25rem;
 }
 
 .redes{
    
-   margin-left: 2rem;
+   margin-left: rem;
    margin-top: 4rem;
     width: 13rem;
 }
@@ -285,11 +285,7 @@ footer{
      padding:1rem ;
 }
 
-
-   
-
-    
-        
+ 
 
       @media screen and (min-width: 600px){
                            
