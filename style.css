@@ -222,6 +222,7 @@ h2{
 .progreso progress{
     width: 100%;
     padding: 1rem;
+    
 }
 .text-progreso{
     color: #d1ceca;
