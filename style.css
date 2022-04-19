@@ -73,6 +73,7 @@ a:hover{
 }
 .nombre{
     position: relative;
+    margin-left: 2rem;
     color: #34B0BE;
     font-size:2rem;
 }
