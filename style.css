@@ -9,9 +9,10 @@
 }
 body{
     background:#161617;
+    border:2px solid red
 }
 .header{
-    margin-left: 95%;
+
     
 }
 
@@ -36,7 +37,7 @@ a:hover{
  
   label{
     color: rgb(73, 72, 72);
-    margin-left:-100px;
+    margin-left:90%;
 }
   input#menu-hamburguesa{
      visibility: hidden;
@@ -58,13 +59,14 @@ a:hover{
  
 .presentacion{
     
-        width: max-content;
+       
         margin-top: 3rem;
         display: flex;
+        justify-content:center;
 }
 
 .datos {
-    margin:.5rem;
+    margin:.5rem 4rem;
     color: #d1ceca;
     font-size:0.5rem;
 }
@@ -97,7 +99,7 @@ a:hover{
 
 .redes{
    
-
+   margin-left: 1rem;
    margin-top: 5rem;
     width: 10rem;
 }
@@ -126,9 +128,10 @@ a:hover{
   
 }
 .iconos{
+    width: 80%;
     display: flex;
     align-items: center;
-    margin: 0;
+  justify-content: space-evenly;
   
     background:rgb(73, 72, 72);;
     height: 6rem;
@@ -309,7 +312,7 @@ li{
     padding:1rem
 }
 .header a{
-    width: max-content;
+    
     margin-top:0;
    color:#D1CECA;
 }
@@ -380,9 +383,9 @@ h2{
  }
 
 .iconos{
-   
+   width: 80%;
+    margin: -3rem;
     
-    margin: -1rem ;
     height: 20%;
     
     }
