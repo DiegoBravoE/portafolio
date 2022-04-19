@@ -9,7 +9,7 @@
 }
 body{
     background:#161617;
-    border:2px solid red
+    
 }
 .header{
 
@@ -91,16 +91,16 @@ a:hover{
     border-radius: 200px;
 }
 .foto img{
-   margin-left: 2rem;
+   margin-left: 3rem;
  margin-top: -5rem;
     width:13rem;
-    height:25rem;
+    height:22rem;
 }
 
 .redes{
    
-   margin-left: 1rem;
-   margin-top: 5rem;
+   margin-left: 4rem;
+   
     width: 10rem;
 }
 .redes strong{
@@ -115,7 +115,8 @@ a:hover{
 }
 .contenedor-iconos{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
+    margin-top: -3rem;
    
 }
 .iconos-redes img{
@@ -131,8 +132,8 @@ a:hover{
     width: 80%;
     display: flex;
     align-items: center;
-  justify-content: space-evenly;
-  
+    justify-content: space-evenly;
+  margin-top: -6px;
     background:rgb(73, 72, 72);;
     height: 6rem;
     border-radius: 15px;
