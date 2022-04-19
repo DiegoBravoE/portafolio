@@ -9,7 +9,7 @@
 }
 body{
     background:#161617;
-    border:2px solid rgb(17, 0, 255);
+    
     
 }
 
@@ -62,7 +62,10 @@ a:hover{
         justify-content: space-around;
         
 }
-
+.parrafo{
+    margin-left: 2rem;
+    font-size:1.5rem
+}
 .datos {
     margin-right:-5rem ;
     color: #d1ceca;
