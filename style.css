@@ -183,10 +183,7 @@ h2{
     
     
 }
-.elipse{
-    
-    margin-bottom: rem;
-}
+
 .servicios svg{
     
     margin: 4.5rem;
@@ -231,6 +228,7 @@ h2{
   display: flex;  
   justify-content: space-between;
 }
+
 .portafolio::-webkit-scrollbar{
     width: 10px;
   
@@ -239,6 +237,10 @@ h2{
    
     display: flex;  
     overflow-x: scroll;
+}
+.portafolio img {
+    border-radius: 5px;
+    margin:.5rem;
 }
 .telefono{
     
