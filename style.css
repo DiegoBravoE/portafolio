@@ -35,6 +35,7 @@ a:hover{
   label{
     color: rgb(73, 72, 72);
     margin-left:90%;
+    padding-right: 1rem;
 }
   input#menu-hamburguesa{
      visibility: hidden;
@@ -58,20 +59,19 @@ a:hover{
     margin-top: 3rem;
     display: flex;
     justify-content: space-around;
-        
+    padding: 0 1rem;
 }
 .parrafo{
-    margin-left: 2rem;
-    font-size:1.5rem
+   
+    font-size:2rem
 }
 .datos {
-    margin-right:-5rem ;
+    margin-right:-1rem ;
     color: #d1ceca;
     font-size:0.5rem;
 }
 .nombre{
     position: relative;
-    margin-left: 2rem;
     color: #34B0BE;
     font-size:2rem;
 }
@@ -80,7 +80,7 @@ a:hover{
     border-top: solid 2px;
     font-size:15px;
     color:#d1ceca;
-    margin-left: .5rem;
+    margin-left: -.5rem;
 }
 
    
@@ -90,7 +90,7 @@ a:hover{
     width: 250px;
     height: 250px;
     border-radius: 200px;
-    margin-left: 1rem;
+    margin-left: -5rem;
    
    
 }
@@ -99,7 +99,7 @@ a:hover{
 }
 .redes{
    
-   margin-left: -4rem;
+   margin-left: -7rem;
    
     
 }
@@ -217,7 +217,7 @@ h2{
     
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding:1rem 1.5rem;
 }
 .progreso progress{
     width: 100%;
