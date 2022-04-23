@@ -157,9 +157,9 @@ a:hover{
     padding-bottom: 2rem;
 }
 .acerca-de-mi{
+    
     color:#d1ceca;
-    padding: 2rem;
-    margin: 2rem;
+    padding:2rem 5rem;
     text-align: center;
 }
 .descargar{
@@ -365,8 +365,9 @@ h2{
     margin-left: 9rem;
     font-size:4rem;
 }
-
-
+.acerca-de-mi{
+    margin-top: -12rem;
+}
 .marketing{
     border-top: solid 2px;
     font-size:2rem;
