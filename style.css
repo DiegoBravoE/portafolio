@@ -163,8 +163,9 @@ a:hover{
     text-align: center;
 }
 .descargar{
+    
     width: max-content;
-   margin:0  40%;
+    margin:5% 40%;
     background:#34B0BE;
     padding: 1rem;
     border: none;
@@ -172,13 +173,10 @@ a:hover{
 }
 .servicios::-webkit-scrollbar{
     width: 10px;
-  
 }
 .servicios{
     overflow-x: scroll;
-   
-    display:flex;
-    
+    display:flex; 
 }
 h2{
     text-align: center;
@@ -188,8 +186,7 @@ h2{
 
 .servicios div{
     background:rgb(255, 253, 253);
-    
-    
+
 }
 
 .servicios svg{
