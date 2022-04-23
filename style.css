@@ -162,6 +162,14 @@ a:hover{
     margin: 2rem;
     text-align: center;
 }
+.descargar{
+    width: max-content;
+   margin:0  40%;
+    background:#34B0BE;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+}
 .servicios::-webkit-scrollbar{
     width: 10px;
   
@@ -342,8 +350,10 @@ h2{
     justify-content: space-evenly;
 }
 
-
-
+.descargar{
+    width: max-content;
+   margin:0  45%;
+}
 .datos{
     margin-top: 5rem;
     margin-left: 1rem;
