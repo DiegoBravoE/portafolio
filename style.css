@@ -151,7 +151,7 @@ a:hover{
    width: 3rem;
 }
 .acerca-de-mi h1{
-    width: max-content;
+    
     color: #34B0BE;
     font-size:3rem;
     padding-bottom: 2rem;
@@ -159,7 +159,7 @@ a:hover{
 .acerca-de-mi{
     
     color:#d1ceca;
-    padding:2rem 5rem;
+    padding:2rem 4rem;
     text-align: center;
 }
 .descargar{
